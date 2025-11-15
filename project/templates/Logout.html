@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+    <link rel="stylesheet" href="{% static 'Logout.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>You have been logged out</h1>
+        <p>Thank you for visiting. Click below to log in again.</p>
+        
+        <a href="{% url 'register' %}" class="btn">Register</a>
+    </div>
+</body>
+</html>
