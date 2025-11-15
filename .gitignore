@@ -158,6 +158,10 @@ logs/
 # Database
 *.sqlite3
 *.db
+project/db.sqlite3
 
 # Secrets
 secrets.json
+
+# Virtual environment
+venv/
